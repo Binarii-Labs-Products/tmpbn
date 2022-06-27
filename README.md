@@ -21,6 +21,9 @@ Transmitting simple data such as a credit card number, combination to a safe or 
 - email
 - public forums
 - via url shorteners
+- Airdrop
+- Cloud sharing
+- File transfer
 - etc.
 
 However, in most cases the owning actor, and the recipient actor, may have to disclose an email or phone number and carry out risk assessments on their privacy. The actors will have to consider the archiving, storage and encryption policies of the third parties involved.
