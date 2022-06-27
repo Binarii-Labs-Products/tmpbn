@@ -1,6 +1,5 @@
 # tmpbn
 A Temporary Bin.  
-tmpbn.com. 
 
 Share secrets without using credentials.
 A simple client heavy app that allows secrets to be saved temporarily on a server and then viewed by another device or user.  
@@ -24,7 +23,7 @@ If the Burn at Get was checked, the secret will be deleted on the server immedia
 
 Access
 ======
-Website.  
+Website (https://tmpbn.com).  
 PWA.  
 
 Api key
