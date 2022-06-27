@@ -1,4 +1,7 @@
 # tmpbn
+A Temporary Bin.  
+tmpbn.com. 
+
 Share secrets without using credentials.
 A simple client heavy app that allows secrets to be saved temporarily on a server and then viewed by another device or user.  
 
