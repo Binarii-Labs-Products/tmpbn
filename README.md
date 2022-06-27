@@ -45,7 +45,7 @@ Process
 
 Api key control
 ===============
-The apikey is used to help monitor and control heavy use and potential spamming.  
+The pre generated api key is used to help monitor and control heavy use and potential spamming.  
 
 Future enhancements
 ===================
