@@ -22,6 +22,11 @@ The browser attempts to decrypt the secret with the 2 phrases.
 If successful the secret will be revealed.  
 If the Burn at Get was checked, the secret will be deleted on the server immediately - otherwise the secrets stay on the server for 5 minutes.
 
+Access
+======
+Website.  
+PWA.  
+
 Api key
 =======
 A session variable is inserted into the page and this is validated by the server storing and retrieving the secrets.  
