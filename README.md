@@ -43,3 +43,7 @@ Process
 Api key control
 ===============
 The apikey is used to help monitor and control heavy use and potential spamming.  
+
+Future enhancements
+===================
+Future enhancements include allowing the actor to choose the storage server (such as Dropbox, Google Drive, Wasabi etc) and actor validation via blockchain.
