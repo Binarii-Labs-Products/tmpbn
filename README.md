@@ -15,12 +15,12 @@ Problem it solves
 =================
 Transmitting simple data such as a credit card number, combination to a safe or a url link, to another device can be achieved in many ways:
 
-- texting
-- sms
-- messaging apps
-- email
-- public forums
-- via url shorteners
+- Texting
+- SMS
+- Messaging apps
+- Email
+- Public forums
+- Via url shorteners
 - Airdrop
 - Cloud sharing
 - File transfer
