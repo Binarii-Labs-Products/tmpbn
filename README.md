@@ -6,7 +6,7 @@ A simple client heavy app that allows secrets to be saved temporarily on a serve
 
 Problem it solves
 =================
-Passing simple data like a credit card number, combination to a safe or a url link to another device can be achieved by many ways - messaging app, email, public forums, url shorteners. However, in many cases the user must show their email or phone number and this can have privacy issues.  
+Passing simple data like a credit card number, combination to a safe or a url link to another device can be achieved in many ways: - messaging app, email, public forums, url shorteners. However, in many cases the user must show their email or phone number and this can have privacy issues.  
 Tmpbn allows for information to be encrypted by one actor and then decrypted by another actor and for this information to be deleted on access.
 
 Process
