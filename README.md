@@ -1,7 +1,7 @@
 # tmpbn
 A Temporary Bin (tmpbn).  
 
-Share secrets without disclosing actor credentials.
+Share plain text secrets without disclosing actor credentials such as email, ip address or phone numbers.
 
 This is a simple zero knowledge app that allows secrets to be encrypted and saved temporarily on a server and then viewed by another device or actor. 
 
