@@ -43,22 +43,27 @@ There are 2 seeds generated for every session by the serving server. The app wil
 
 Process
 =======
-- The owning actor enters 2 phrases they must remember. If they cannot remember these phrases and the order of input, then they will not be able to Get and decrypt back into plain text.  
-- The owning actor enters a secret.  
-- The secret is encrypted at the browser with the hash of the 2 phrases and current seed as the decryption key.  
+- The owning actor enters a memorable phrase they must remember. If they cannot remember this phrase or the server generated phrase (see below), then they will not be able to Get and decrypt back into plain text.  
+- The owning actor enters a secret : min 2 chars or max 500.  
+- The secret is encrypted at the browser with the hash of the phrase and current seed sent to the client, as the decryption key.  
 - The serving server provides 2 seeds to the browser - the current seed and the previous seed.
 - Seeds are randomly calculated and rotated every frequently (not less than 10 minutes).  
 - When Saved, the storage server is updated with the hash using the current seed, the encrypted data, an api-key and a timestamp.
 - The storage server seeks authorization with the serving server to ensure the api-key is the same. If not the storage call is rejected.
-- If the user has selected the Burn at Get checkbox, this parameter is sent to the server.  
-- To retrieve the secret, the 2 phrases are reentered by the recipient actor. The app sends the hash of these and the current seed. If these are correct the storage server sends the encrypted secret to the browser.  
-- The browser will attempt to decrypt the secret with the 2 phrases and the 2 seeds the browser has stored. If successful the secret will be revealed.  
+- The storage server returns a phrase of words.  
+- The owning actor can copy the server phrase. 
+- The owning actor can copy a link for the purposes of transmitting to another actor. The other actor can open the url and enter the memorable phrase to Get and reveal the secret.  
+- If the owning actor has selected the Burn at Get checkbox, this parameter is sent to the server.  
+- To retrieve the secret, the memorable phrases and server generated phrease are reentered by the recipient actor. The app sends the hash of these and the current seed. If these are correct the storage server sends the encrypted secret to the browser.  
+- The browser will attempt to decrypt the secret with the phrases and the 2 seeds the browser has stored. If successful the secret will be revealed.  
 - If the Burn at Get was checked, the secret will be deleted on the server immediately - otherwise the secrets stay on the server for 5 minutes.
 
 Api-key control
 ===============
 The pre generated api-key is used to help monitor and control heavy use and potential spamming.  
+The server sends back a unique phrase for the purposes of strengtening the encryption and to eliminate hash clash where 2 actors have used the same password and seed combination.
 
 Future enhancements
 ===================
 Future enhancements include allowing the actor to choose the storage server (such as Dropbox, Google Drive, Wasabi etc) and actor validation via blockchain. Also, will consider use of key generators at the device level.
+Data shared is restricted to 500 as this is sent by the url. To allow longer text, the browser will chunk the blob data into pieces and api these chunks to the server for concatination. 
