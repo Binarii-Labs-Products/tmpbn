@@ -3,6 +3,8 @@ A Temporary Bin (tmpbn).
 
 Share plain text secrets without disclosing actor credentials such as email, ip address or phone numbers.
 
+Secrets are physically removed from the server after 5 minutes or on decryption.
+
 This is a simple zero knowledge app that allows secrets to be encrypted and saved temporarily on a server and then viewed by another device or actor. 
 
 Version 0.0.197.
