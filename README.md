@@ -1,7 +1,7 @@
 # tmpbn
 A Temporary Bin (tmpbn).  
 
-Share plain text secrets without disclosing actor credentials such as email, ip address or phone numbers.
+Share plain text secrets without owning and recipient actor credentials such as email, ip address or phone numbers being revealed.
 
 Secrets are physically removed from the server after 5 minutes or on decryption.
 
