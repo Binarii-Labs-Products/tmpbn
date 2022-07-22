@@ -3,7 +3,9 @@ A Temporary Bin (tmpbn).
 
 Share secrets without disclosing actor credentials.
 
-This is a simple zero knowledge app that allows secrets to be encrypted and saved temporarily on a server and then viewed by another device or actor.  
+This is a simple zero knowledge app that allows secrets to be encrypted and saved temporarily on a server and then viewed by another device or actor. 
+
+Version 0.0.197.
 
 Access
 ======
